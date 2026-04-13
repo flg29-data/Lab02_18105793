@@ -16,7 +16,6 @@ Projeto: Reparo dos dados de transações do varejo (análise de cesta de compra
 ```
 Lab02_18105793/
 │
-├── dbt_project/
 │   ├── models/
 │   │   ├── staging/
 │   │   │   └── stg_sales.sql
