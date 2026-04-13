@@ -69,7 +69,7 @@ dbt init dbt_project
 
 2.3 Configuração da conexão
 
-→ arquivo >> `profiles.yml`
+→ arquivo >> `models\profiles.yml`
 
 
 2.4 Definição do Source (camada Silver)
@@ -92,4 +92,31 @@ dbt init dbt_project
 
 ## 4. Macro
 
-## 5. Visualização
+Configuração Arquivo >> `models\macros\calculate_total.sql`
+
+## 5. Documentação DBT
+
+Documentação técnica gerada automaticamente
+
+```
+dbt docs generate
+dbt docs serve 
+```
+
+## 6. Visualização
+
+Metabase
+
+Acesso http://localhost:4001/dashboard/lab02
+
+
+## Desafios encontrados neste Laboratório
+
+- Instalação e Reinstalação do Python (incompatibilidade com o DBT)
+- Instalação do DBT: reconfigurações por conta da incompatibilidade com o Git
+- Instalação das bibliotecas Python e configurações no VSCode
+- Configuração do Metabase 
+
+
+
+
