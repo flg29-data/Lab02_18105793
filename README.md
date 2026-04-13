@@ -66,3 +66,13 @@ dbt init dbt_project
 
 → arquivo >> `models\staging\source.yml`
 
+## 3. Transformações
+
+3.1 Staging (limpeza)
+
+→ arquivo tabela "stg_sales" >> `models\staging\stg_sales.yml`
+→ arquivo tabela "stg_customers" >> `models\staging\stg_customers.yml`
+
+3.2 Marts (Gold)
+
+
