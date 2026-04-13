@@ -45,18 +45,24 @@ Lab02_18105793/
 
 ## 2. Instalação / Configuração do DBT
 
-Instação do DBT (Postgres)
+2.1 Instação do DBT (Postgres)
 
 ```
 pip install dbt-postgres
 ```
 
-Inicialização do Projeto
+2.2 Inicialização do Projeto
 
 ```
 dbt init dbt_project
 ```
 
-Configuração da conexão
+2.3 Configuração da conexão
 
 → arquivo >> `profiles.yml`
+
+
+2.4 Definição do Source (camada Silver)
+
+→ arquivo >> `models\staging\source.yml`
+
