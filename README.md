@@ -7,7 +7,7 @@ LABORATÓRIO 02: Transformação de Dados com DBT
 
 ## Objetivo
 
-Este laboratório 02 tem objetivo a transformação de Dados utilizando DBT
+Este laboratório 02 tem objetivo a transformação de Dados da camada Silver para Gold utilizando DBT
 
 Projeto: Reparo dos dados de transações do varejo (análise de cesta de compras, segmentação de clientes e análise de varejo).
 
@@ -70,9 +70,16 @@ dbt init dbt_project
 
 3.1 Staging (limpeza)
 
-→ arquivo tabela "stg_sales" >> `models\staging\stg_sales.yml`
-→ arquivo tabela "stg_customers" >> `models\staging\stg_customers.yml`
+→ arquivo tabela "stg_sales" >> `models\staging\stg_sales.sql`
+
+→ arquivo tabela "stg_customers" >> `models\staging\stg_customers.sql`
 
 3.2 Marts (Gold)
 
+→ arquivo tabela "fact_sales" >> `models\staging\fact_sales.sql`
 
+→ arquivo tabela "dim_customers" >> `models\staging\dim_customers.sql`
+
+## 4. Macro
+
+## 5. Visualização
