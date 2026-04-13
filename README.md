@@ -29,9 +29,6 @@ Lab02_18105793/
 │   ├── macros/
 │   │   └── calculate_total.sql
 │   │
-│   ├── tests/
-│   │   └── test_negative_values.sql
-│   │
 │   ├── dbt_project.yml
 │   └── profiles.yml
 │
