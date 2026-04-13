@@ -38,7 +38,20 @@ Lab02_18105793/
 
 ## Conteúdo
 
-## 1. Backup da base Silver
+## 0. Pré-requisitos
+- PostgreSQL (versão 1.10.0)
+- VSCode
+- Python (versão 3.11) - compatível com DBT
+- Git (versão 2.53.0.2) - compatibilidade com DBT
+- DBT (versão 1.11.8)
+
+## 1. Backup/Restore da base Silver
+
+Backup base silver "fact_sales" realizado pelo PostgreSQL
+
+
+Restore base silver "fact_sales_silver.backup" realizado pelo PostgreSQL no database "lab02"
+
 
 ## 2. Instalação / Configuração do DBT
 
