@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_sales
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+      - name: total_value
+        tests:
+          - not_null
