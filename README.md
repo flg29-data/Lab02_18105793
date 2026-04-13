@@ -15,5 +15,24 @@ Projeto: Reparo dos dados de transações do varejo (análise de cesta de compra
 
 ```
 Lab02_18105793/
+|
+├── models/
+│   ├── staging/
+│   ├── marts/
 │
-├── IMAGES/
+│
+├── dbt_project.yml
+│── package-lock.yml
+│── packages.yml
+│
+├── 
+
+        └── dim_customers.sql
+```
+
+## Conteúdo
+
+## 1. Backup da base Silver
+
+## 2. Configuração do DBT
+
