@@ -15,19 +15,29 @@ Projeto: Reparo dos dados de transações do varejo (análise de cesta de compra
 
 ```
 Lab02_18105793/
-|
-├── models/
-│   ├── staging/
-│   ├── marts/
 │
+├── dbt_project/
+│   ├── models/
+│   │   ├── staging/
+│   │   │   └── stg_sales.sql
+│   │   │   └── stg_customers.sql
+│   │   │   └── source.yml
+│   │   │
+│   │   ├── marts/
+│   │   │   └── fact_sales.sql
+│   │   │   └── dim_customers.sql
+│   │
+│   ├── macros/
+│   │   └── calculate_total.sql
+│   │
+│   ├── tests/
+│   │   └── test_negative_values.sql
+│   │
+│   ├── dbt_project.yml
+│   └── profiles.yml
 │
-├── dbt_project.yml
-│── package-lock.yml
-│── packages.yml
-│
-├── 
-
-        └── dim_customers.sql
+├── README.md
+└── requirements.txt
 ```
 
 ## Conteúdo
