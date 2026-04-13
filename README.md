@@ -43,5 +43,20 @@ Lab02_18105793/
 
 ## 1. Backup da base Silver
 
-## 2. Configuração do DBT
+## 2. Instalação / Configuração do DBT
 
+Instação do DBT (Postgres)
+
+```
+pip install dbt-postgres
+```
+
+Inicialização do Projeto
+
+```
+dbt init dbt_project
+```
+
+Configuração da conexão
+
+→ arquivo >> `profiles.yml`
